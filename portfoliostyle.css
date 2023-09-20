@@ -1,3 +1,11 @@
+html {
+    background-color: grey;
+    color: white;
+}
 header {
     text-align: right;
+    background-color: rgb(32, 32, 32);
+}
+body {
+
 }
