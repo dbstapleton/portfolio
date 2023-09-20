@@ -1,6 +1,8 @@
 html {
     background-color: rgb(60, 60, 60);
     color: white;
+    margin: 0;
+    padding: 0;
 }
 header {
     text-align: right;
@@ -12,6 +14,5 @@ header {
     z-index: 100;
 }
 body {
-    margin: 0:
-    padding: 0;
+    padding: 20px;
 }
