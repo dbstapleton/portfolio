@@ -47,6 +47,7 @@ main {
     display: flex;
     max-width: 1200px;
     padding: 20px;
+    flex-wrap: wrap;
 }
 
 /* Styling for the home content */
