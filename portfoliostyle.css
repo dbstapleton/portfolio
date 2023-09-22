@@ -39,7 +39,7 @@ header nav a:hover {
 
 header nav a.active {
     font-weight: bold;
-    color: #3498db;
+    color: rgb(52, 152, 219);
 }
 
 main {
@@ -49,23 +49,61 @@ main {
     padding: 20px;
 }
 
-.imageone {
+/* Styling for the home content */
+.home-content {
+    display: flex;
     flex: 1;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px;
 }
 
-.imageone img {
+.home-content .image {
+    flex: 1; 
+    padding: 20px; 
+}
+
+.home-content .text {
+    flex: 2;
+    padding: 20px; 
+}
+
+.home-content img {
+    max-width: 100%;
+    height: auto; 
+}
+
+/* Styling for the project section */
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+}
+
+
+.project .top,
+.project .bottom {
+    display: flex;
+    flex: 1;
+}
+
+
+.project .image,
+.project .text {
+    flex: 1;
+    padding: 20px;
+}
+
+.project img {
     max-width: 100%;
     height: auto;
 }
 
-.aboutme {
-    flex: 2;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
-.aboutme p {
+.project .text p {
     font-size: 16px;
+    color: #333;
 }
