@@ -29,9 +29,13 @@ nav a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 nav a:hover {
     text-decoration: underline;
+}
+
+.main .content {
+    margin: 20px;
 }
