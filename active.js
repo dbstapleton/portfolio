@@ -21,5 +21,9 @@ document.addEventListener("DOMContentLoaded", function () {
         if (activeLink) {
             activeLink.classList.add("active");
         }
-    });
+    }
+
+    highlightNavLink();
+
+    window.addEventListener("scroll", highlightNavLink);
 });
