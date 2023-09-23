@@ -70,7 +70,7 @@ main {
 }
 
 .home-content .image,
-.home-content.text {
+.home-content .text {
     flex: 1;
     padding: 20px;
 }
