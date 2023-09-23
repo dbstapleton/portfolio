@@ -12,7 +12,7 @@
   updateText();
 
   // Set an interval to update the text at a specific time interval (e.g., every 1 second)
-  const rotationInterval = setInterval(updateText, 2000); // Change the time interval as needed (in milliseconds)
+  const rotationInterval = setInterval(updateText, 1500); // Change the time interval as needed (in milliseconds)
 
   
   const maxCycles = 5; 
@@ -22,7 +22,7 @@
     clearInterval(rotationInterval);
     if (cycles < maxCycles) {
       cycles++;
-      rotationInterval = setInterval(updateText, 1000);
+      rotationInterval = setInterval(updateText, 2000);
     } else {
       document.getElementById("rotating-text").textContent = "Rotation complete!";
     }
