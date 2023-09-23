@@ -51,6 +51,14 @@ main {
     color: white;
 }
 
+#rotating-text {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out; 
+}
+
 /* Styling for the home content */
 .home-content {
     display: flex;
