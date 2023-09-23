@@ -1,7 +1,9 @@
+body {
+    margin: 0;
+}
 html, body {
     background-color: rgb(60, 60, 60);
     color: white;
-    margin: 0;
     padding: 0;
 }
 
