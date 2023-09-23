@@ -63,7 +63,6 @@ main {
 .home-content {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     margin-bottom: 20px;
     color: white;
@@ -72,12 +71,14 @@ main {
 .home-content .image, {
     flex: 1;
     padding: 20px;
+    order: 1;
 }
 
 .home-content .text {
     flex: 1;
     padding: 20px;
-    text-align: center;
+    text-align: left;
+    order: 2;
 }
 
 .home-content img {
