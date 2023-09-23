@@ -1,5 +1,5 @@
 
-  const textRotation = ["Bachelor in Computer Science", "Associates in Science & Business", "Associates in General Studies"];
+  const textRotation = ["Bachelors in Computer Science", "Associates in Science & Business", "Associates in General Studies"];
   let index = 0;
 
   
