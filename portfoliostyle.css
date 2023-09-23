@@ -68,7 +68,7 @@ main {
     color: white;
 }
 
-.home-content .image, {
+.home-content .image {
     flex: 1;
     padding: 20px;
     order: 1;
