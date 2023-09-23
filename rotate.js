@@ -3,30 +3,34 @@
   let index = 0;
 
   
-  function updateText() {
-    document.getElementById("rotating-text").textContent = textRotation[index];
-    index = (index + 1) % textRotation.length; 
-  }
+ function updateText() {
+    const rotatingText = document.getElementById("rotating-text");
 
-  
-  updateText();
+    rotatingText.style.opacity = 0;
 
-  // Set an interval to update the text at a specific time interval (e.g., every 1 second)
-  const rotationInterval = setInterval(updateText, 1500); // Change the time interval as needed (in milliseconds)
+    setTimeout(() => {
+        rotatingText.textContent = textRotation[index];
+        rotatingText.style.opacity = 1;
+        index = (index + 1) % textRotation.length;
+    }, 500); 
+}
 
-  
-  const maxCycles = 5; 
-  let cycles = 0;
+updateText();
 
-  function stopRotation() {
+const rotationInterval = setInterval(updateText, 1500);
+
+const maxCycles = 5;
+let cycles = 0;
+
+function stopRotation() {
     clearInterval(rotationInterval);
     if (cycles < maxCycles) {
-      cycles++;
-      rotationInterval = setInterval(updateText, 2000);
+        cycles++;
+        rotationInterval = setInterval(updateText, 1500);
     } else {
-      document.getElementById("rotating-text").textContent = "Rotation complete!";
+        document.getElementById("rotating-text").textContent = "Rotation complete!";
     }
-  }
+}
 
-  
-  setTimeout(stopRotation, 5000); // Stop the rotation after 5 seconds (adjust the delay as needed)
+
+setTimeout(stopRotation, 5000);
