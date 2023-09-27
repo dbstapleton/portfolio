@@ -73,7 +73,7 @@ main {
     flex-wrap: wrap;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     color: white;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 .home-content .image {
@@ -101,7 +101,7 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     margin-bottom: 20px; 
     color: white;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 
