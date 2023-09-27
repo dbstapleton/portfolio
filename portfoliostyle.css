@@ -122,12 +122,6 @@ main {
     height: auto;
 }
 
-
-.project .text p {
-    font-size: 16px;
-    color: white;
-}
-
 .home-content .text,
 .project .text {
     text-align: center;
