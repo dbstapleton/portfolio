@@ -85,7 +85,6 @@ main {
 .home-content .text {
     flex: 1;
     padding: 20px;
-    text-align: left;
     order: 2;
 }
 
@@ -127,4 +126,9 @@ main {
 .project .text p {
     font-size: 16px;
     color: white;
+}
+
+.home-content .text,
+.project .text {
+    text-align: center;
 }
