@@ -74,6 +74,7 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
     margin-bottom: 20px;
     color: white;
+    padding-bottom: 20px;
 }
 
 .home-content .image {
@@ -102,6 +103,7 @@ main {
     margin-bottom: 20px; 
     color: white;
     margin-top: 20px;
+    padding-top: 20px;
 }
 
 
