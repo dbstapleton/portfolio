@@ -6,10 +6,10 @@ html, body {
     margin: 0;
 }
 
-body {
+body :not(header) {
     margin: 0;
     padding-top: 20px;
-    padding-left: 0;
+    padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
 }
